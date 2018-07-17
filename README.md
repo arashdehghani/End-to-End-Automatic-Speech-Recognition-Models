@@ -13,7 +13,7 @@ $ ./utils/timit_preprocess.sh <timit_directory> <path_to_save_mfcc_feature>
 ```
 #### Train
 ```bash
-$ ./main/train_BiRNN.py <path_to_save_mfcc_feature>
+$ ./main/train_BiRNN.py <mfcc_path_you_just_saved>
 ```
 
 
