@@ -1,5 +1,5 @@
 # End-to-End-Automatic-Speech-Recognition
-End-to-end ASR system implemented in Tensorflow. Using Timit dataset.
+End-to-end ASR system implemented in Tensorflow. (Now only support TIMIT dataset)
 
 ## Install and Usage
 #### Install dependency
