@@ -20,6 +20,6 @@ $ ./main/train_BiRNN.py <mfcc_path_you_just_saved>
 #### Result (about 20 epochs)  
 testing PER: 0.28 
 
-### TODO list:
+## TODO list:
 * DeepSpeech model
 
