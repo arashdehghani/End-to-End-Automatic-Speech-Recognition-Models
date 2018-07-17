@@ -15,30 +15,6 @@ from utils.timit_preprocess import idx2phn, phonemes
 import time
 import os
 
-# parameter
-hps_list = {
-    'num_epochs': 70,
-    'lr': 5e-3,
-    'grad_clip': 5,
-    'num_hidden': 128,
-    'num_features': 39,
-    'num_classes': 61+1,
-    'num_cells': 2,
-    'num_layers': 1,
-    'batch_size': 32,
-    # 'max_time_step': 778,
-    'drop_prob': 0.2
-}
-
-def hparas(hps_list):
-    class Hparas(object):
-        pass
-    hps = Hparas()
-    for hp in hps_list:
-        setattr(hps, hp, hps_list[hp])
-    return hps
-
-hps = hparas(hps_list)
 
 class BiRNN:
     """A bidrectional RNN for Automatic Speech Recognition."""
