@@ -9,12 +9,12 @@ $ pip3 install -r requirements.txt
 
 #### Preprocess TIMIT dataset
 ```bash
-$ ./utils/timit_preprocess.sh <timit_directory> <path_to_save_mfcc_feature>
+$ ./src/utils/timit_preprocess.sh <timit_directory> <path_to_save_mfcc_feature>
 ```
 
 #### Train bidirectional RNN
 ```bash
-$ ./main/train_BiRNN.py <mfcc_path_you_just_saved>
+$ ./src/main/train_BiRNN.py <mfcc_path_you_just_saved>
 ```
 
 #### Result (about 20 epochs)  
