@@ -22,7 +22,7 @@ from utils.timit_preprocess import idx2phn, phonemes
 from model.BiRNN import BiRNN
 
 
-# parameter
+# hyper parameter
 hps_list = {
     'num_epochs': 70,
     'lr': 5e-3,
