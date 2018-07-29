@@ -8,6 +8,7 @@ $ pip3 install -r requirements.txt
 ```
 
 #### Preprocess TIMIT dataset
+Before runing the script, install *parallel* and *sox* first.  
 ```bash
 $ ./src/utils/timit_preprocess.sh <timit_directory> <path_to_save_mfcc_feature>
 ```
