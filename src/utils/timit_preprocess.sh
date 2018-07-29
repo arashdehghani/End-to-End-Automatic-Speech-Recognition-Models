@@ -9,6 +9,6 @@ echo 'Turn NIST into RIFF...'
 echo ' '
 
 # Turn NIST wav file into RIFF
-# find $1 -name '*.wav' | parallel -P20 sox {} '{.}_riff.wav'
+find $1 -name '*.wav' | parallel -P20 sox {} '{.}_riff.wav'
 # Extract mfcc features
 python3 ./src/utils/timit_preprocess.py $1 $2
