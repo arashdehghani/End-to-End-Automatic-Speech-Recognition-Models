@@ -12,14 +12,22 @@ $ pip3 install -r requirements.txt
 $ ./src/utils/timit_preprocess.sh <timit_directory> <path_to_save_mfcc_feature>
 ```
 
-#### Train bidirectional RNN
+#### Train models
+
+* Bidirectional RNN
 ```bash
 $ ./src/main/train_BiRNN.py <mfcc_path_you_just_saved>
+``` 
+
+* DeepSpeech2
+```bash
+$ ./src/main/train_deepspeech2.py <mfcc_path_you_just_saved>
 ```
 
-#### Result (about 20 epochs)  
-Testing PER: 0.28 
+#### Result  
+* Bidirectional RNN  
+Testing PER: 0.28 (about 20 epochs, can be better if you train the model with more epochs)  
 
-## TODO list:
-* DeepSpeech model
+* DeepSpeech2  
+Testing PER: 0.24 (about 25 epochs)
 
