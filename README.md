@@ -1,13 +1,12 @@
 # End-to-End-Automatic-Speech-Recognition
 End-to-end ASR system implemented in Tensorflow. (Now only support TIMIT dataset)
 
-## Installation and Usage
 ### Install dependency
 ```
 $ pip3 install -r requirements.txt
 ```
 
-### Preprocess TIMIT dataset
+### Preprocess timit dataset
 Before runing the script, install *parallel* and *sox* first.  
 ```bash
 $ ./src/utils/timit_preprocess.sh <timit_directory> <path_to_save_mfcc_feature>
