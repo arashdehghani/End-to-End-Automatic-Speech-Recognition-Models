@@ -1,3 +1,13 @@
+# ------------------------
+# -    DeepSpeech2.py    - 
+# ------------------------
+# - Author:  Tao, Tu
+# - Date:    2018/7/30
+# - Description:
+#      Deep speech 2 model.
+#
+# -----------------------
+
 import tensorflow as tf
 import numpy as np
 import time
