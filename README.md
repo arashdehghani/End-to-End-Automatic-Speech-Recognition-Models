@@ -1,7 +1,7 @@
 # End-to-End-Automatic-Speech-Recognition
 End-to-end ASR system implemented in Tensorflow. (Now only support TIMIT dataset)
 
-## Install and Usage
+## Installation and Usage
 ### Install dependency
 ```
 $ pip3 install -r requirements.txt
