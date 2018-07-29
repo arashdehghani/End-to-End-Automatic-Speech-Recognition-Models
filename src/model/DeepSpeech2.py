@@ -79,7 +79,7 @@ class DeepSpeech2:
             # Shape = [batch_size, time_steps_shrinked, num_features_shrinked, channel]
             rnn_input = tf.transpose(layer_2, (0, 2, 1, 3))
             # Shape = [batch_size, time_steps_shrinked, channel * num_features_shrinked]
-            # If you want to try 3 conv layers, change 32 to 96
+            # If you want to try 3 conv. layers, change 32 to 96.
             rnn_input = tf.reshape(rnn_input, shape=[batch_size, -1, 32 * num_features_shrinked])
             for i in range(self.num_rnn_layers):
                 cell_fw = tf.contrib.rnn.LSTMCell(self.num_hidden) 
