@@ -12,8 +12,10 @@ import time
 import os
 import sys
 
-sys.path.append('.')
-sys.path.append('..')
+os.environ["CUDA_VISIBLE_DEVICES"]='0'
+curr_script_dir = os.path.dirname(os.path.realpath(__file__))
+parent_dir = os.path.dirname(curr_script_dir)
+sys.path.append(parent_dir)
 
 import numpy as np
 import tensorflow as tf
