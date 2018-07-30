@@ -20,12 +20,6 @@ import sys
 
 
 # configs
-USER = os.path.expanduser('~')
-TIMIT_PATH = USER + '/Dataset/Timit/timit'
-TIMIT_TRAIN_PATH = TIMIT_PATH + '/train'
-TIMIT_TEST_PATH = TIMIT_PATH + '/test'
-DEST_PATH = './'
-
 NIST_extension = '.wav'
 RIFF_extension = '_riff.wav'
 PHN_extension = '.phn'
