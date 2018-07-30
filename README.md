@@ -28,6 +28,6 @@ $ ./src/main/train_deepspeech2.py <mfcc_path_you_just_saved>
 * Bidirectional RNN  
 Testing PER: 0.28 (about 20 epochs, can be better if you train the model with more epochs)  
 
-* DeepSpeech2 (with small revise)
+* DeepSpeech2 (with small revise)  
 Testing PER: 0.24 (about 25 epochs)
 
